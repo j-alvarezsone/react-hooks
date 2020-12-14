@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.light {
+  background: white;
+  color: black;
+}
+.light h2 {
+  color: white;
+}
+.dark {
+  background: black;
+  color: black;
+}
+.dark h1 {
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
