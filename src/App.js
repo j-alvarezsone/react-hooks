@@ -5,6 +5,7 @@ import './App.css';
 // components
 import Header from './components/Header';
 import Characters from './components/Characters';
+import CharactersItems from './components/CharactersItems';
 
 // context
 import { ThemeContext } from './context/ThemeManager';
@@ -14,7 +15,9 @@ function App() {
   return (
     <div className={`App ${theme}`}>
       <Header />
-      <Characters />
+      <Characters>
+        <CharactersItems />
+      </Characters>
     </div>
   );
 }
